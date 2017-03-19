@@ -45,13 +45,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SlipSort\MergeSort.csproj">
-      <Project>{8789e37f-8894-4ee0-8479-231a150964c5}</Project>
-      <Name>MergeSort</Name>
-    </ProjectReference>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+    <ProjectReference Include="..\MergeSort\MergeSort.csproj">
+      <Project>{bf2fccbf-01cc-47eb-9ac3-5c5a27e3fe77}</Project>
+      <Name>MergeSort</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

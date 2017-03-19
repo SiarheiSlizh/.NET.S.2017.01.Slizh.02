@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SlipSort
+namespace MergeSort
 {
-
     /// <summary>  
     /// This class is intended for array sorting.
     /// </summary>  
-    public class SortIntArr
-    {
+    public class SortIntArr {
+
         #region MergeSort
         /// <summary>
         /// This method divides array into two parts recursively until their sizes are two or one.
